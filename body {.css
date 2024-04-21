@@ -1,0 +1,40 @@
+<style>
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+
+<DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="root"></div>
+  <script src="index.js"></script>
+</body>
+</html>
